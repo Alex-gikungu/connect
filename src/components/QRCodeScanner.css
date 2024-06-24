@@ -1,0 +1,18 @@
+/* src/components/QRCodeScanner.css */
+.qr-scanner-container {
+  background-image: url('scan2.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.qr-scanner {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #333;
+  border-radius: 15px;
+}
